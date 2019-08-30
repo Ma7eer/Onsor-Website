@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FormattedMessage } from 'react-intl';
-import { Layout, Container } from '../components/common';
+import { Layout, Container, Form } from '../components/common';
 import SEO from '../components/common/SEO';
 import Header from '../components/theme/Header';
 
@@ -14,6 +14,7 @@ const ContactPage = () => (
 				<h2>
 					<FormattedMessage id="contact" />
 				</h2>
+				<Form />
 			</Welcome>
 		</React.Fragment>
 	</Layout>

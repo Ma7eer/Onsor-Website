@@ -20,6 +20,7 @@ const IndexPage = () => (
 				<Logo />
 				<TextContainer>
 					<FormattedMessage id="coming_soon" />
+					<span style={{ color: '#f1b668' }}>...</span>
 				</TextContainer>
 			</Welcome>
 		</React.Fragment>

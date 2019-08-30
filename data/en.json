@@ -1,8 +1,11 @@
 {
   "welcome": "Welcome",
-  "coming_soon": "coming soon...",
+  "coming_soon": "coming soon",
   "logo": "Logo",
   "home": "Home",
   "contact": "Contact us",
-  "not_found": "404 - Page Not Found"
+  "not_found": "404 - Page Not Found",
+  "form_from": "From",
+  "form_subject": "Subject",
+  "form_message": "Message"
 }
