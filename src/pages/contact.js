@@ -1,26 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FormattedMessage } from 'react-intl';
-import { Layout, Container, Logo } from '../components/common';
+import { Layout, Container } from '../components/common';
 import SEO from '../components/common/SEO';
 import Header from '../components/theme/Header';
-import colors from '../../data/colors';
 
-const TextContainer = styled.h2`
-  text-align: center;
-  color: ${colors.primary};
-`;
-
-const IndexPage = () => (
+const ContactPage = () => (
 	<Layout>
 		<React.Fragment>
-			<SEO title="welcome" />
+			<SEO title="contact" />
 			<Header />
 			<Welcome as={Container}>
-				<Logo />
-				<TextContainer>
-					<FormattedMessage id="coming_soon" />
-				</TextContainer>
+				<h2>
+					<FormattedMessage id="contact" />
+				</h2>
 			</Welcome>
 		</React.Fragment>
 	</Layout>
@@ -30,4 +23,4 @@ const Welcome = styled.div`
   padding: 2rem 0;
 `;
 
-export default IndexPage;
+export default ContactPage;
