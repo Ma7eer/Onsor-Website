@@ -7,5 +7,6 @@
   "not_found": "404 - Page Not Found",
   "form_from": "From",
   "form_subject": "Subject",
-  "form_message": "Message"
+  "form_message": "Message",
+  "form_send": "Send"
 }

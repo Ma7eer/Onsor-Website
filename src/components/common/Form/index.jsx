@@ -68,7 +68,7 @@ export const Form = () => {
 				/>
 			</FormField>
 			<AwesomeButton type="primary" size="large">
-        Send
+				<FormattedMessage id="form_send" />
 			</AwesomeButton>
 		</FormContainer>
 	);
