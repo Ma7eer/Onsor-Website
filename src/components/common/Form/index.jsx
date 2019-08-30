@@ -35,8 +35,8 @@ export const Form = () => {
 	});
 
 	return (
-		<FormContainer name="contact" method="POST" data-netlify="true">
-			<input name="form-name" value="Netlify Rocks" type="hidden" />
+		<FormContainer name="Contact Form" method="POST" data-netlify="true">
+			<input type="hidden" name="form-name" value="Contact Form" />
 			<FormField>
 				<span>
 					<FormattedMessage id="form_from" />:
