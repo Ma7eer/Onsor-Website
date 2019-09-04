@@ -42,7 +42,7 @@ export const Form = () => {
 					<FormattedMessage id="form_from" />:
 				</span>
 				<Input
-					type="text"
+					type="email"
 					name="from"
 					placeholder={lang === 'en' ? 'From' : 'الاسم'}
 					required
@@ -53,7 +53,7 @@ export const Form = () => {
 					<FormattedMessage id="form_subject" />:
 				</span>
 				<Input
-					type="email"
+					type="text"
 					name="subject"
 					placeholder={lang === 'en' ? 'Subject' : 'الموضوع'}
 					required
