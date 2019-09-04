@@ -44,7 +44,7 @@ export const Form = () => {
 				<Input
 					type="email"
 					name="from"
-					placeholder={lang === 'en' ? 'From' : 'الاسم'}
+					placeholder={lang === 'en' ? 'email' : 'البريد الالكتروني'}
 					required
 				/>
 			</FormField>
