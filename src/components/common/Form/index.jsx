@@ -45,6 +45,7 @@ export const Form = () => {
 					type="text"
 					name="from"
 					placeholder={lang === 'en' ? 'From' : 'الاسم'}
+					required
 				/>
 			</FormField>
 			<FormField>
@@ -52,9 +53,10 @@ export const Form = () => {
 					<FormattedMessage id="form_subject" />:
 				</span>
 				<Input
-					type="text"
+					type="email"
 					name="subject"
 					placeholder={lang === 'en' ? 'Subject' : 'الموضوع'}
+					required
 				/>
 			</FormField>
 			<FormField>
@@ -65,6 +67,7 @@ export const Form = () => {
 					rows="4"
 					name="message"
 					placeholder={lang === 'en' ? 'Massage' : 'الرسالة'}
+					required
 				/>
 			</FormField>
 			<AwesomeButton type="primary" size="large">
