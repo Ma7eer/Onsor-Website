@@ -31,6 +31,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap"
       rel="stylesheet"
+      media="none" onload="if(media!=='all')media='all'"
     />
     <style>
       /* Set the size of the div element that contains the map */
@@ -1105,7 +1106,7 @@
         var uluru = {lat: 23.567496, lng: 58.172324};
         // The map, centered at Uluru
         var map = new google.maps.Map(
-            document.getElementById('map'), {zoom: 4, center: uluru});
+            document.getElementById('map'), {zoom: 8, center: uluru});
         // The marker, positioned at Uluru
         var marker = new google.maps.Marker({position: uluru, map: map});
       }
